@@ -11,13 +11,13 @@
   --minecraft-emerald: #00c853;
   
   /* UI colors */
-  --bg-primary: #2e2e2e;
-  --bg-secondary: #1a1a1a;
-  --bg-card: #3a3a3a;
+  --bg-primary: #0d1b2a;
+  --bg-secondary: #1b263b;
+  --bg-card: #415a77;
   --text-primary: #ffffff;
   --text-secondary: #b0b0b0;
-  --accent: var(--minecraft-emerald);
-  --accent-hover: var(--minecraft-dark-green);
+  --accent: #ff8c42;
+  --accent-hover: #ff7733;
   
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -101,11 +101,11 @@ p {
 }
 
 .btn-secondary {
-  background: var(--minecraft-wood);
+  background: #cc6633;
 }
 
 .btn-secondary:hover {
-  background: #6d4c41;
+  background: #b55529;
 }
 
 /* Card styles */
@@ -115,13 +115,14 @@ p {
   padding: 1.5rem;
   margin: 1rem;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 140, 66, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 24px rgba(255, 140, 66, 0.4);
+  border-color: rgba(255, 140, 66, 0.5);
 }
 
 /* Layout utilities */
